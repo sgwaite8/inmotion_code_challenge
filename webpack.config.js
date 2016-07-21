@@ -3,6 +3,7 @@ var webpack = require('webpack');
 var debug = process.env.NODE_ENV !== 'production';
 
 module.exports = {
+  devtool: 'source-map',
   entry: "./src/script.js",
   output: {
     path: __dirname + "/public/javascripts/",
