@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var userSchema = new mongoose.Schema({
+var movieSchema = new mongoose.Schema({
   title: {type: String, required: true},
   actors: {type: String, required: true},
   genre: {type: String, required: true}
@@ -8,6 +8,6 @@ var userSchema = new mongoose.Schema({
   rating: {type: String, required: true}
 })
 
-var User = mongoose.model('User', userSchema);
+var Movie = mongoose.model('Movie', movieSchema);
 //make this available to our other files
-module.exports = User;
+module.exports = Movie;
