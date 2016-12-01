@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UserContainer from './components/user-container';
+import MovieContainer from './components/movie-container';
 
-ReactDOM.render(<UserContainer />, document.getElementById('app-container'));
+ReactDOM.render(<MovieContainer />, document.getElementById('app-container'));
 
 console.log('herro');
