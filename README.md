@@ -42,3 +42,8 @@ You MAY use other publicly available JS components (please document separately a
 - Use what you believe to be best practices when developing the page. You will be judged on both the function and the form of your code.
 - When you finish, create a git bundle( git bundle create code_challenge.bdl --all).
 - Email that bundle to the person who sent you this coding challenge or host it on dropbox and email the link to download it.
+
+##Susannah's notes on the project:
+- I have code in my movie-search component that is not currently working. At this time, the user can add movies and delete movies. The search functionality does not yet work. 
+- The data persists on the page, through Mongo.
+- This is a single page application with React.

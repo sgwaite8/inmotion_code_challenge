@@ -1,5 +1,6 @@
 import React from 'react';
 import MovieForm from './movie-form';
+import MovieSearch from './movie-search';
 import MovieList from './movie-list';
 
 class MovieContainer extends React.Component {
